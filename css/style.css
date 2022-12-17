@@ -1354,6 +1354,7 @@ color: var(--primary-color);
 	border-radius: 50%;
   text-align: center;
   line-height: 36px;
+  transition: all 0.3s ease;
 }
 
 .social-logo span:hover{
@@ -1384,7 +1385,8 @@ color: var(--primary-color);
 
 .footer-items ul li a{
 	text-decoration: none;
-    color: var(--white);
+  color: var(--white);
+  transition: all 0.3s ease;
 }
 
 .footer-items ul li a:hover{
