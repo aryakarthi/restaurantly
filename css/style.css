@@ -1057,6 +1057,7 @@ header{
 .chefs-img-box{
   width: 32%;
   position: relative;
+  overflow: hidden;
 }
 
 .chefs-img-box img{
