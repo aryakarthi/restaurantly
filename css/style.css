@@ -1058,6 +1058,7 @@ header{
   width: 32%;
   position: relative;
   overflow: hidden;
+  /* transition: all 0.3s ease; */
 }
 
 .chefs-img-box img{
@@ -1072,6 +1073,7 @@ header{
   left: 0;
   right: 0;
   opacity: 0;
+  /* transition: all 0.3s ease; */
 }
 
 .chef-info{
@@ -1104,7 +1106,7 @@ header{
   bottom: -50px;
   height: 50px;
   text-align: center;
-  transition: bottom ease-in-out 0.4s;
+  transition: all 0.5s ease;
 }
 
 .chef-social a{
@@ -1125,7 +1127,7 @@ header{
 .chefs-img-box:hover .chef-profile{
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
   opacity: 1;
-  transition: 0.5s;
+  transition: all 0.5s ease;
 }
 
 .chefs-img-box:hover .chef-info{
