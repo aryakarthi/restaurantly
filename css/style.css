@@ -315,8 +315,7 @@ header{
 }
 
 .welcome-intro h1 .res-title{
-  color: var(--primary-color);
-  font-size: 48px !important;
+  color: var(--primary-color) !important;
 }
 
 .welcome-intro, .play-btn-div{
@@ -570,6 +569,7 @@ header{
 }
 
 .item-img{
+  flex: 0 0 auto;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -602,14 +602,14 @@ header{
   color: var(--primary-color);
 }
 
-.item-info::after{
+/* .item-info::after{
   content: ".....................................................................";
     position: absolute;
     left: 160px;
     top: -2px;
     z-index: 1;
     color: #bab3a6;
-}
+} */
 
 .item-info .item-desc{
   font-size: 14px;
