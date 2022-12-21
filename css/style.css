@@ -302,7 +302,7 @@ header{
 }
 
 .welcome-page{
-  margin-top: 230px;
+  margin-top: 200px;
 }
 
 .welcome-div{
@@ -318,8 +318,16 @@ header{
   color: var(--primary-color) !important;
 }
 
-.welcome-intro, .play-btn-div{
+/* .welcome-intro, .play-btn-div{
   width: 50%;
+} */
+
+.welcome-intro{
+  width: 70%;
+}
+
+.play-btn-div{
+  width: 30%;
 }
 
 .welcome-intro h2{
@@ -335,12 +343,15 @@ header{
 
 .play-btn-div{
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .play-btn{
-  position: absolute;
+  /* position: absolute;
   top: 35%;
-  right: 25%;
+  right: 25%; */
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -589,19 +600,41 @@ header{
   width: 520px;
 }
 
+/* .item-info .item-name{
+  background-color: var(--bg-dark-gray);
+  z-index: 2;
+} */
+
 .item-info .item-name a{
+  position: relative;
+  display: inline-block;
   text-decoration: none;
   font-size: 16px;
   font-weight: 700;
   color: var(--white);
+  /* width: 90%;
+  z-index: 2; */
 }
+
+/* .item-info .item-name a::after{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 10px;
+  width: 100%;
+  background-color: var(--bg-dark-gray);
+  border-top: dotted 2px var(--white);
+  z-index: -1;
+} */
 
 .item-info .item-price{
   font-size: 16px;
   font-weight: 700;
   color: var(--primary-color);
+  /* width: 10%;
+  z-index: 2; */
 }
-
+  
 /* .item-info::after{
   content: ".....................................................................";
     position: absolute;
