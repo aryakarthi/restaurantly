@@ -481,6 +481,7 @@ header{
 
 .box{
   width: 32%;
+  min-height: 270px;
   background-color: var(--bg-dark-gray);
   padding: 50px 30px;
   transition: all 1s ease;
