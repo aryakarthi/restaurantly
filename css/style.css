@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif; */
-
 :root{
   --primary-color: #cda45e;
   --white: #fff;
@@ -120,11 +116,6 @@ h4.after-line::after{
 
 .top-bar{
   padding: 10px 0;
-  /* position: sticky;
-  left: 0;
-  right: 0;
-  top: -50px;
-  z-index: 999; */
 }
 
 .contact-info span{
@@ -171,10 +162,6 @@ header{
   list-style: none;
   font-size: 14px;
 }
-
-/* .nav-list .active{
-  color: var(--primary-color) !important;
-} */
 
 .nav-list li a{
   display: inline-block;
@@ -318,10 +305,6 @@ header{
   color: var(--primary-color) !important;
 }
 
-/* .welcome-intro, .play-btn-div{
-  width: 50%;
-} */
-
 .welcome-intro{
   width: 70%;
 }
@@ -349,9 +332,6 @@ header{
 }
 
 .play-btn{
-  /* position: absolute;
-  top: 35%;
-  right: 25%; */
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -601,11 +581,6 @@ header{
   width: 520px;
 }
 
-/* .item-info .item-name{
-  background-color: var(--bg-dark-gray);
-  z-index: 2;
-} */
-
 .item-info .item-name a{
   position: relative;
   display: inline-block;
@@ -613,8 +588,6 @@ header{
   font-size: 16px;
   font-weight: 700;
   color: var(--white);
-  /* width: 90%;
-  z-index: 2; */
 }
 
 /* .item-info .item-name a::after{
@@ -632,8 +605,6 @@ header{
   font-size: 16px;
   font-weight: 700;
   color: var(--primary-color);
-  /* width: 10%;
-  z-index: 2; */
 }
   
 /* .item-info::after{
@@ -951,6 +922,7 @@ header{
 
 .test-content{
   background-color: #26231d;
+  /* height: 100%; */
   min-height: 200px;
   padding: 20px 20px 60px;
   border-radius: 6px;
@@ -968,9 +940,15 @@ header{
   font-size: 20px;
 }
 
+.client-content-div{
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
 .client-content{
   position: absolute;
-  top: 180px;
+  top: -45px;
   left: 50px;
 }
 
@@ -1040,7 +1018,7 @@ header{
 .gallery-imgs{
   width: 98%;
   margin: 0 auto;
-  background-color: #625b4b;
+  /* background-color: #625b4b; */
   flex-wrap: wrap;
   flex: 0 0 auto;
   object-fit: cover;
@@ -1092,7 +1070,6 @@ header{
   width: 32%;
   position: relative;
   overflow: hidden;
-  /* transition: all 0.3s ease; */
 }
 
 .chefs-img-box img{
@@ -1107,7 +1084,6 @@ header{
   left: 0;
   right: 0;
   opacity: 0;
-  /* transition: all 0.3s ease; */
 }
 
 .chef-info{
@@ -1463,7 +1439,6 @@ color: var(--primary-color);
 
 .newsletter input:focus{
 	outline: none;
-  /* border: 1px solid var(--primary-color); */
 }
 
 .newsletter button{
